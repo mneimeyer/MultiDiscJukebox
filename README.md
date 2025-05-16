@@ -86,7 +86,9 @@ This plugin is licensed under the MIT License. See the [LICENSE](./LICENSE) file
 
 ## Credits
 
-Created by Matt Neimeyer.
+- Created by Matt Neimeyer.
+- Thanks to the Paper community for their excellent API documentation and support!
+
 
 ---
 
