@@ -1,0 +1,17 @@
+# Logging configuration
+logging:
+  # Set to true to enable debug logging
+  debug: false
+
+  # Log levels (true to enable, false to disable)
+  levels:
+    info: true     # Basic information about operation
+    warning: true  # Warnings that don't stop functionality
+    error: true    # Errors that may affect functionality
+
+  # Log categories (true to enable, false to disable)
+  categories:
+    disc_player: true    # Logs related to disc playback
+    commands: true       # Logs related to commands
+    block_events: true   # Logs related to block interactions
+    disc_durations: true # Logs related to disc duration management
