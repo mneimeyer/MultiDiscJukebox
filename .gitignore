@@ -2,3 +2,13 @@
 /.gradle/
 /build/
 /build/classes/java/main/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+.gradle/
+build/
