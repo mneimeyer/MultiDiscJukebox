@@ -16,7 +16,7 @@
 
 ## Installation
 
-1. Download the plugin JAR from [Releases](#) (or build it yourself).
+1. Download the plugin JAR from [Releases](https://github.com/mattneimeyer/MultiDiscJukebox/releases/latest) (or build it yourself).
 2. Place the JAR in your server's `plugins/` directory.
 3. Restart the server.
 4. (Optional) Customize behavior in `plugins/MultiDiscJukebox/config.yml`.
