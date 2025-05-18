@@ -1,11 +1,16 @@
 name: MultiDiscJukebox
-version: '0.9'
-main: org.neimeyer.multiDiscJukebox.MultiDiscJukebox
+version: '0.9.1'
+main: org.neimeyer.multiDiscJukebox.MultiDiscJukebox   # ← still required
 api-version: '1.21'
 description: A multi-disc jukebox plugin that allows playing discs in sequence
-authors: [MNeimeyer]
+authors:
+  - MNeimeyer
 website: https://github.com/mneimeyer/MultiDiscJukebox
-loader: default
+
+entrypoints:
+  default:
+    - org.neimeyer.multiDiscJukebox.MultiDiscJukebox
+
 commands:
   multibox:
     description: Manage MultiBox jukeboxes
